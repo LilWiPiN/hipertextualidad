@@ -1,0 +1,52 @@
+body{
+	background-image:url("../img/textura.png");
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+}
+
+h1{
+	font-family: bodoni mt;
+	font-size: 60px;
+}
+
+h2{
+	font-family: bodoni mt;
+	font-size: 40px;
+}
+
+h3{
+	font-family: bodoni mt;
+	font-size: 30px;
+}
+
+p{
+	font-family: bodoni mt;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+}
+
+#despues{
+	float: right;
+}
+
+#pie{
+	font-family: bodoni mt;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+.voltear{
+	transform: scaleX(-1);
+}

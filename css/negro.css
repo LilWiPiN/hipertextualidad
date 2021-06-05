@@ -1,0 +1,67 @@
+body{
+	background-image: url("../img/background.png");
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+}
+
+h1{
+	font-family: bell mt;
+	font-size: 100px;
+}
+
+h2{
+	font-family: bell mt;
+	font-size: 50px;
+}
+
+h3{
+	font-family: bell mt;
+	font-size: 30px;
+	margin-right: 100px;
+}
+
+.titulo{
+	font-family: bell mt;
+	font-size: 35px;
+	color: white;
+	background-color: #553f2d;
+	width: all;
+	display: block;
+}
+
+p{
+	font-family: bell mt;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+footer{
+	font-family: bell mt;
+  	position: absolute;
+  	left: 0;
+  	right: 0;
+  	padding: 10px;
+  	background-color: rgba(0, 0, 0, 0.6);
+  	color:white;
+}
+
+#antes{
+	float: left;
+}
+
+#despues{
+	float: right;
+}
+
+#pie{
+	font-family: bell mt;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+.voltear{
+	transform: scaleX(-1);
+}
